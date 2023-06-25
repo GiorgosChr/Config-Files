@@ -50,7 +50,7 @@ map <C-l> <C-w>l
 
 
 " Latex Shortcuts
-map ,go <Esc>i\documentclass{article}<Enter>\author{Michalis Christou}<Enter>\title{}<Enter>\begin{document}<Enter>\maketitle<Enter>\end{document}<Esc>/title{}<Enter>f}i
+map ,go <Esc>i\documentclass{article}<Enter>\author{Georgios Christou}<Enter>\title{}<Enter>\begin{document}<Enter>\maketitle<Enter>\end{document}<Esc>/title{}<Enter>f}i
 autocmd Filetype tex map ,use <Esc>i\usepackage{}<Space><Esc>T{i
 autocmd Filetype tex map ,marg <Esc>i\usepackage[left=2cm,right=2cm,top=1cm,bottom=2cm]{geometry}<Esc>
 autocmd Filetype tex map ,bf <Esc>i\textbf{}<Space><Esc>T{i
